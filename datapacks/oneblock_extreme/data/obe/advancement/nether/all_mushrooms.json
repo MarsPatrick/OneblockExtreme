@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:crimson_fungus"},
+    "title": {"text": "Mushrooms lover","color": "white"},
+    "description": {"text": "Collect all mushrooms"},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:nether/crimson_nylium",
+  "criteria": {
+    "has_red_mushroom": {
+      "trigger": "minecraft:inventory_changed","conditions": {
+        "items": [{"items": ["minecraft:red_mushroom"]}]}},
+    "has_brown_mushroom": {
+      "trigger": "minecraft:inventory_changed","conditions": {
+        "items": [{"items": ["minecraft:brown_mushroom"]}]}},
+    "has_crimson_fungus": {
+      "trigger": "minecraft:inventory_changed","conditions": {
+        "items": [{"items": ["minecraft:crimson_fungus"]}]}},
+    "has_warped_fungus": {
+      "trigger": "minecraft:inventory_changed","conditions": {
+        "items": [{"items": ["minecraft:warped_fungus"]}]}}
+  },
+  "requirements": [["has_red_mushroom"],["has_brown_mushroom"],["has_crimson_fungus"],["has_warped_fungus"]]
+}

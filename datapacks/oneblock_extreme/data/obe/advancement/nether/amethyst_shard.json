@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:amethyst_shard"},
+    "title": {"text": "Crystallization","color": "white"},
+    "description": {"text": "Making like laboratory."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:nether/glowstone_dust",
+  "criteria": {
+    "has_amethyst_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:amethyst_shard"]}]}
+    }
+  },
+  "requirements": [["has_amethyst_shard"]]
+}

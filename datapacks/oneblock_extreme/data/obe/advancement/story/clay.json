@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:clay"},
+    "title": {"text": "Let it dry","color": "white"},
+    "description": {"text": "Dehumidify a mud from putting it on top of dripstone."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:story/pointed_dripstone",
+  "criteria": {
+    "has_clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:clay"]}]}
+    }
+  },
+  "requirements": [["has_clay"]]
+}

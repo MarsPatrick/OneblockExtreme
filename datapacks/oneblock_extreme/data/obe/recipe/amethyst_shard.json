@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:gunpowder",
+    "B": "minecraft:bone_meal",
+    "G": "minecraft:glowstone_dust",
+    "W": "minecraft:water_bucket"
+  },
+  "pattern": [
+    "#G#",
+    "BWB",
+    "#G#"
+  ],
+  "result": {
+    "id": "minecraft:amethyst_shard",
+    "count": 4
+  }
+}

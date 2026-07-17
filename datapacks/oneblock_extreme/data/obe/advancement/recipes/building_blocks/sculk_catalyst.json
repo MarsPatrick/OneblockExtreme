@@ -1,0 +1,19 @@
+{
+  "parent": "obe:recipes/root",
+  "criteria": {
+    "has_end_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:end_stone"]}]}
+    },
+    "has_soul_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:soul_sand"]}]}
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {"recipe": "obe:sculk_catalyst"}
+    }
+  },
+  "requirements": [["has_end_stone","has_soul_sand","has_the_recipe"]],
+  "rewards": {"recipes": ["obe:sculk_catalyst"]}
+}

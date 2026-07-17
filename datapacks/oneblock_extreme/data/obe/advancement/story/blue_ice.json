@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:blue_ice"},
+    "title": {"text": "Unmeltable","color": "white"},
+    "description": {"text": "Compress the ice."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:story/ice",
+  "criteria": {
+    "has_blue_ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:blue_ice"]}]}
+    }
+  },
+  "requirements": [["has_blue_ice"]]
+}

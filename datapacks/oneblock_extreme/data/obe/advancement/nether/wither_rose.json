@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {"id": "minecraft:wither_rose"},
+    "title": {"text": "Dangerous flower","color": "white"},
+    "description": {"text": "When nether skeleton reaches it..."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "obe:nether/trader",
+  "criteria": {
+    "has_wither_rose": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:wither_rose"]}]}
+    }
+  },
+  "requirements": [["has_wither_rose"]]
+}

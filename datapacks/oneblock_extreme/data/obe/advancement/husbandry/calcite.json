@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:calcite"},
+    "title": {"text": "Bleach","color": "white"},
+    "description": {"text": " Craft calcite from diorite."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:husbandry/quartz",
+  "criteria": {
+    "has_calcite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+          "items": [{"items": ["minecraft:calcite"]}]
+      }
+    }
+  },
+  "requirements": [["has_calcite"]]
+}

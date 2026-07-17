@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "gravel",
+  "ingredients": [
+    "minecraft:bone_meal",
+    "minecraft:bone_meal",
+    "minecraft:bone_meal",
+    "minecraft:dirt"
+  ],
+  "result": {
+    "id": "minecraft:gravel",
+    "count": 1
+  }
+}

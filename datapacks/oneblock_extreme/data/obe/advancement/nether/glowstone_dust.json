@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:glowstone_dust"},
+    "title": {"text": "The light of Nether","color": "white"},
+    "description": {"text": "It's feeling shiny."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "has_glowstone_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:glowstone_dust"]}]}
+    }
+  },
+  "requirements": [["has_glowstone_dust"]]
+}

@@ -1,0 +1,19 @@
+{
+  "parent": "obe:story/oak_log",
+  "display": {
+    "icon": {"id": "minecraft:red_bed"},
+    "title": {"translate": "advancements.adventure.sleep_in_bed.title"},
+    "description": {"translate": "advancements.adventure.sleep_in_bed.description"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "slept_in_bed": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": {}
+    }
+  },
+  "requirements": [["slept_in_bed"]]
+}

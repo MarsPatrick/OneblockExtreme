@@ -1,0 +1,15 @@
+{
+  "parent": "obe:recipes/root",
+  "criteria": {
+    "has_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:blackstone"]}]}
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {"recipe": "obe:tuff"}
+    }
+  },
+  "requirements": [["has_blackstone","has_the_recipe"]],
+  "rewards": {"recipes": ["obe:tuff"]}
+}

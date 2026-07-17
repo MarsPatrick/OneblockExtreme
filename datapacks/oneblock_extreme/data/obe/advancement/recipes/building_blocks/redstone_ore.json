@@ -1,0 +1,15 @@
+{
+  "parent": "obe:recipes/root",
+  "criteria": {
+    "has_redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:redstone"]}]}
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {"recipe": "obe:redstone_ore"}
+    }
+  },
+  "requirements": [["has_redstone","has_the_recipe"]],
+  "rewards": {"recipes": ["obe:redstone_ore"]}
+}

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:budding_amethyst"},
+    "title": {"text": "Engraver","color": "white"},
+    "description": {"text": "engrave an amethyst block using diamond hoe."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:nether/amethyst_shard",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+     }
+  },
+  "requirements": [["impossible"]]
+}

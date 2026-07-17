@@ -1,0 +1,72 @@
+{
+  "parent": "minecraft:adventure/voluntary_exile",
+  "display": {
+    "icon": {
+      "id": "minecraft:white_banner",
+      "components": {
+        "minecraft:banner_patterns": [
+          {
+            "pattern": "minecraft:small_stripes",
+            "color": "blue"
+          },
+          {
+            "pattern": "minecraft:stripe_bottom",
+            "color": "gray"
+          },
+          {
+            "pattern": "minecraft:cross",
+            "color": "gray"
+          },
+          {
+            "pattern": "minecraft:border",
+            "color": "gray"
+          },
+          {
+            "pattern": "minecraft:stripe_middle",
+            "color": "white"
+          },
+          {
+            "pattern": "minecraft:half_horizontal",
+            "color": "gray"
+          },
+          {
+            "pattern": "minecraft:flower",
+            "color": "gray"
+          },
+          {
+            "pattern": "minecraft:border",
+            "color": "white"
+          }
+        ],
+        "minecraft:custom_name": {
+          "translate": "block.minecraft.ominous_banner",
+          "color": "gold"
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.adventure.hero_of_the_village.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.hero_of_the_village.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "hero_of_the_village": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "hero_of_the_village"
+    ]
+  ]
+}

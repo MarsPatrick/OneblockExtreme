@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:tuff"},
+    "title": {"text": "Smoked block","color": "white"},
+    "description": {"text": "Craft tuff"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:story/blackstone",
+  "criteria": {
+    "has_tuff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+          "items": [{"items": ["minecraft:tuff"]}]
+      }
+    }
+  },
+  "requirements": [["has_tuff"]]
+}

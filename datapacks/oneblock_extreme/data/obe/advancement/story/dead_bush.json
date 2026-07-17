@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:dead_bush"},
+    "title": {"text": "Unused sapling?","color": "white"},
+    "description": {"text": "Smoke oak sapling."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:story/smoker",
+  "criteria": {
+    "has_dead_bush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:dead_bush"]}]}
+    }
+  },
+  "requirements": [["has_dead_bush"]]
+}

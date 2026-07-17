@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#A#",
+    " # "
+  ],
+  "key": {
+    "#": "minecraft:sculk_vein",
+    "A": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 1
+  }
+}

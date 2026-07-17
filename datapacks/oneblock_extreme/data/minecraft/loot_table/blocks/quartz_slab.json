@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {"rolls": 1.0,"bonus_rolls": 0.0,"entries": [
+      {"type": "minecraft:alternatives","children": [
+        {"type": "minecraft:item",
+        "name": "minecraft:quartz_slab",
+        "conditions": [{"condition": "minecraft:match_tool","predicate": {"enchantments": [{"enchantment": "minecraft:silk_touch","levels": {"min": 1}}]}}],
+        "functions": [
+          {"function": "minecraft:set_count",
+          "conditions": [{"condition": "minecraft:block_state_property","block": "minecraft:quartz_slab","properties": {"type": "double"}}],
+          "count": 2.0,"add": false}]
+      },        
+      {"type": "minecraft:item",
+      "name": "minecraft:quartz",
+      "functions": [
+        {"function": "minecraft:set_count","count": 2,"add": false},
+        {"function": "minecraft:set_count",
+            "conditions": [{"condition": "minecraft:block_state_property","block": "minecraft:quartz_slab","properties": {"type": "double"}}],
+            "count": 4.0,"add": false},
+          {"function": "minecraft:explosion_decay"}]
+        }
+      ]}]}]
+}

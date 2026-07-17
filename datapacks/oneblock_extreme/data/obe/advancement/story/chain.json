@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chain"
+    },
+    "title": {
+      "text": "Decoration?",
+      "color": "white"
+    },
+    "description": {
+      "text": "Craft a chain"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/smelt_iron",
+  "criteria": {
+    "has_chain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chain"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chain"
+    ]
+  ]
+}

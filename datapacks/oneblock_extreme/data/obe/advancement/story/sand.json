@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:sand"},
+    "title": {"text": "Blast grinding","color": "white"},
+    "description": {"text": "Blast something to sand"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:story/blast_furnace",
+  "criteria": {
+    "has_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:sand"]}]}
+    }
+  },
+  "requirements": [["has_sand"]]
+}

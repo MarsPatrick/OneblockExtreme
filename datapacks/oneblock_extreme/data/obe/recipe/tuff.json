@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#B#",
+    " # "
+  ],
+  "key": {
+    "#": "minecraft:bone_meal",
+    "B": "minecraft:blackstone"
+  },
+  "result": {
+    "id": "minecraft:tuff",
+    "count": 1
+  }
+}

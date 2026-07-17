@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:oak_trapdoor"},
+    "title": {"text": "Explore the bottom","color": "white"},
+    "description": {"text": "The way going down without water."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:story/oak_log",
+  "criteria": {
+    "has_oak_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:oak_trapdoor"]}]}
+    }
+  },
+  "requirements": [["has_oak_trapdoor"]]
+}

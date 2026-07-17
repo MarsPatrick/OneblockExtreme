@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:pointed_dripstone"},
+    "title": {"text": "Alterative dryer","color": "white"},
+    "description": {"text": "Trade a pointed dripstone"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:story/wandering_trader",
+  "criteria": {
+    "has_pointed_dripstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:pointed_dripstone"]}]}
+    }
+  },
+  "requirements": [["has_pointed_dripstone"]]
+}

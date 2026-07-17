@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "nether_ore",
+  "pattern": [
+    "S#S",
+    "#S#",
+    "S#S"
+  ],
+  "key": {
+    "#": "minecraft:raw_gold",
+    "S": "minecraft:netherrack"
+  },
+  "result": {
+    "id": "minecraft:nether_gold_ore",
+    "count": 4
+  }
+}

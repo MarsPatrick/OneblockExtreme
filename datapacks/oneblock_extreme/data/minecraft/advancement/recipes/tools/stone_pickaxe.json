@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crafttable": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:crafting_table"]}]}
+    },
+    "use_crafttable": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {"items": {"items": ["minecraft:crafting_table"]}}
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {"recipe": "minecraft:stone_pickaxe"}
+    },
+    "has_the_cobblestone_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {"recipe": "crafting:cobblestone"}
+    }    
+},
+  "requirements": [["has_crafttable","use_crafttable","has_the_recipe"],["has_the_cobblestone_recipe"]],
+  "rewards": {"recipes": ["minecraft:stone_pickaxe"]}
+}

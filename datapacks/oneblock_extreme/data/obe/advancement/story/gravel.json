@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:gravel"},
+    "title": {"text": "Mix them up!","color": "white"},
+    "description": {"text": "Craft gravel."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:story/gunpowder",
+  "criteria": {
+    "has_gravel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+          "items": [{"items": ["minecraft:gravel"]}]
+      }
+    }
+  },
+  "requirements": [["has_gravel"]]
+}

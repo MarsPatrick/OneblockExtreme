@@ -1,0 +1,15 @@
+{
+  "parent": "obe:recipes/root",
+  "criteria": {
+    "has_bubble_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:bubble_coral"]}]}
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {"recipe": "obe:bubble_coral_fan"}
+    }
+  },
+  "requirements": [["has_bubble_coral","has_the_recipe"]],
+  "rewards": {"recipes": ["obe:bubble_coral_fan"]}
+}

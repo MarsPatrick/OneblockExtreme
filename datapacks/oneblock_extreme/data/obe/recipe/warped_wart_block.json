@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#N#",
+    " # "
+  ],
+  "key": {
+    "#": "minecraft:glow_ink_sac",
+    "N": "minecraft:nether_wart_block"
+  },
+  "result": {
+    "id": "minecraft:warped_wart_block",
+    "count": 1
+  }
+}

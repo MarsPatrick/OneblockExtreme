@@ -1,0 +1,47 @@
+{
+  "parent": "obe:recipes/root",
+  "criteria": {
+    "has_warped_wart_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_wart_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_netherrack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherrack"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "obe:warped_nylium"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_warped_wart_block",
+      "has_netherrack",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "obe:warped_nylium"
+    ]
+  }
+}

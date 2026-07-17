@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:nether/get_wither_skull",
+  "display": {
+    "icon": {"id": "minecraft:ancient_debris"},
+    "title": {"translate": "advancements.nether.obtain_ancient_debris.title"},
+    "description": {"text": "The trader like black skulls."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_ancient_debris": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:ancient_debris"]}]}
+    }
+  },
+  "requirements": [["has_ancient_debris"]]
+}

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:heart_of_the_sea"},
+    "title": {"text": "Lolipop of legend","color": "white"},
+    "description": {"text": "Is this lolipop can be fished?"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "obe:husbandry/wet_sponge",
+  "criteria": {
+    "heart_of_the_sea": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {"item": {"items": ["minecraft:heart_of_the_sea"]}}
+    }
+  },
+  "requirements": [["heart_of_the_sea"]]
+}

@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:cobbled_deepslate"},
+    "title": {"text": "Higher density","color": "white"},
+    "description": {"text": "Craft cobbled deepslate."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:story/blackstone",
+  "criteria": {
+    "has_cobbled_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+          "items": [{"items": ["minecraft:cobbled_deepslate"]}]
+      }
+    }
+  },
+  "requirements": [["has_cobbled_deepslate"]]
+}

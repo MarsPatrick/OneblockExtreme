@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "text": "Wandering Trader",
+      "color": "white"
+    },
+    "description": {
+      "text": "This guy will gives you more..."
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "traded": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:wandering_trader"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "traded"
+    ]
+  ]
+}

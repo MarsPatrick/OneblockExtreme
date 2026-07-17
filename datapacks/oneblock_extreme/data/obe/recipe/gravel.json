@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "gravel",
+  "pattern": [
+    "#G",
+    "G#"
+  ],
+  "key": {
+    "#": "minecraft:dirt",
+    "G": "minecraft:gunpowder"
+  },
+  "result": {
+    "id": "minecraft:gravel",
+    "count": 2
+  }
+}

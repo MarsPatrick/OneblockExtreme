@@ -1,0 +1,19 @@
+{
+  "parent": "obe:nether/blaze",
+  "display": {
+    "icon": {"id": "minecraft:blaze_rod"},
+    "title": {"translate": "advancements.nether.obtain_blaze_rod.title"},
+    "description": {"translate": "advancements.nether.obtain_blaze_rod.description"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_blaze_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:blaze_rod"]}]}
+    }
+  },
+  "requirements": [["has_blaze_rod"]]
+}

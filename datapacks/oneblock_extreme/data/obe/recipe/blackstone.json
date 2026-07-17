@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "blocks",
+  "ingredient": "minecraft:cobblestone",
+  "result": {
+    "id": "minecraft:blackstone"
+  },
+  "experience": 0.1,
+  "cooking_time": 100
+}

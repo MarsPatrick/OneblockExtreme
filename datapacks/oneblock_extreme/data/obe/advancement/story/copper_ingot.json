@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:copper_ingot"},
+    "title": {"text": "Darkness tank","color": "white"},
+    "description": {"text": "How dark can your pool made?"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:story/water_bucket",
+  "criteria": {
+    "has_copper_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:copper_ingot"]}]}
+    }
+  },
+  "requirements": [["has_copper_ingot"]]
+}

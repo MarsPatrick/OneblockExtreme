@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:enchanted_golden_apple"},
+    "title": {"text": "Delicious food","color": "white"},
+    "description": {"text": "Craft an enchanted golden apple."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:nether/gold_ingot",
+  "criteria": {
+    "has_enchanted_golden_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:enchanted_golden_apple"]}]}
+    }
+  },
+  "requirements": [["has_enchanted_golden_apple"]]
+}

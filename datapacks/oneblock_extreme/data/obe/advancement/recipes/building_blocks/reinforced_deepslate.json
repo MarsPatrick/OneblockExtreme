@@ -1,0 +1,23 @@
+{
+  "parent": "obe:recipes/root",
+  "criteria": {
+    "has_end_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:end_stone"]}]}
+    },
+    "has_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:obsidian"]}]}
+    },
+    "has_cobbled_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:cobbled_deepslate"]}]}
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {"recipe": "obe:reinforced_deepslate"}
+    }
+  },
+  "requirements": [["has_end_stone","has_obsidian","has_cobbled_deepslate","has_the_recipe"]],
+  "rewards": {"recipes": ["obe:reinforced_deepslate"]}
+}

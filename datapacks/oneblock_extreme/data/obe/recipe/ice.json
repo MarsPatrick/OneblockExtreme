@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "minecraft:snow_block"
+  },
+  "result": {
+    "id": "minecraft:ice",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:reinforced_deepslate"},
+    "title": {"text": "Highest density","color": "white"},
+    "description": {"text": "Craft reinforced deepslate."},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:story/cobbled_deepslate",
+  "criteria": {
+    "has_reinforced_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+          "items": [{"items": ["minecraft:reinforced_deepslate"]}]
+      }
+    }
+  },
+  "requirements": [["has_reinforced_deepslate"]]
+}

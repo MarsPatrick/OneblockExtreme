@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "deepslate_ores",
+  "pattern": [
+    "S#S",
+    "#S#",
+    "S#S"
+  ],
+  "key": {
+    "#": "minecraft:diamond",
+    "S": "minecraft:deepslate"
+  },
+  "result": {
+    "id": "minecraft:deepslate_diamond_ore",
+    "count": 4
+  }
+}

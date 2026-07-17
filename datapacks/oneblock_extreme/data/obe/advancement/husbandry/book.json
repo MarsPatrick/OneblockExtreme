@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:book"},
+    "title": {"text": "It's not wet?","color": "white"},
+    "description": {"text": "Get a book by fishing."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/fishy_business",
+  "criteria": {
+    "book": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {"item": {"items": ["minecraft:book"]}}
+    },
+    "enchanted_book": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {"item": {"items": ["minecraft:enchanted_book"]}}
+    }
+  },
+  "requirements": [["book","enchanted_book"]]
+}

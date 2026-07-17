@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:gold_ingot"},
+    "title": {"text": "Getting Rich","color": "white"},
+    "description": {"text": "Kill some pigman."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "has_gold_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:gold_ingot"]}]}
+    }
+  },
+  "requirements": [["has_gold_ingot"]]
+}

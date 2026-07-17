@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:crimson_nylium"},
+    "title": {"text": "It's not red enough","color": "white"},
+    "description": {"text": "Craft crimson nylium."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:nether/nether_wart",
+  "criteria": {
+    "has_crimson_nylium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:crimson_nylium"]}]}
+    }
+  },
+  "requirements": [["has_crimson_nylium"]]
+}

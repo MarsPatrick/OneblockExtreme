@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "###",
+    "EEE"
+  ],
+  "key": {
+    "#": "minecraft:soul_sand",
+    "E": "minecraft:end_stone",
+    "W": "minecraft:warped_wart_block"
+  },
+  "result": {
+    "id": "minecraft:sculk_catalyst",
+    "count": 1
+  }
+}

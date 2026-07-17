@@ -1,0 +1,15 @@
+{
+  "parent": "obe:recipes/root",
+  "criteria": {
+    "has_raw_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:raw_iron"]}]}
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {"recipe": "obe:deepslate_iron_ore"}
+    }
+  },
+  "requirements": [["has_raw_iron","has_the_recipe"]],
+  "rewards": {"recipes": ["obe:deepslate_iron_ore"]}
+}

@@ -1,0 +1,15 @@
+{
+  "parent": "obe:recipes/root",
+  "criteria": {
+    "has_smoker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:smoker"]}]}
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {"recipe": "obe:dead_bush"}
+    }
+  },
+  "requirements": [["has_smoker","has_the_recipe"]],
+  "rewards": {"recipes": ["obe:dead_bush"]}
+}

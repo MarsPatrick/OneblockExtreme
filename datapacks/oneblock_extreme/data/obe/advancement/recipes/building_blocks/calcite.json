@@ -1,0 +1,15 @@
+{
+  "parent": "obe:recipes/root",
+  "criteria": {
+    "has_diorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:diorite"]}]}
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {"recipe": "obe:calcite"}
+    }
+  },
+  "requirements": [["has_diorite","has_the_recipe"]],
+  "rewards": {"recipes": ["obe:calcite"]}
+}

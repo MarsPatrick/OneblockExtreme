@@ -1,0 +1,15 @@
+{
+  "parent": "obe:recipes/root",
+  "criteria": {
+    "has_lapis_lazuli": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:lapis_lazuli"]}]}
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {"recipe": "obe:deepslate_lapis_ore"}
+    }
+  },
+  "requirements": [["has_lapis_lazuli","has_the_recipe"]],
+  "rewards": {"recipes": ["obe:deepslate_lapis_ore"]}
+}

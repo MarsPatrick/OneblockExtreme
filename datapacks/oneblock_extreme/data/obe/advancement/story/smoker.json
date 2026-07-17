@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:smoker"},
+    "title": {"text": "Alternative use","color": "white"},
+    "description": {"text": "The smoker not just cood foods."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "minecraft:story/mine_stone",
+  "criteria": {
+    "has_smoker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:smoker"]}]}
+    }
+  },
+  "requirements": [["has_smoker"]]
+}

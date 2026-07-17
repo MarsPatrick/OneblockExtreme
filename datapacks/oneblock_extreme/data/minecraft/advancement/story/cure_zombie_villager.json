@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:enchanted_golden_apple"},
+    "title": {"translate": "advancements.story.cure_zombie_villager.title"},
+    "description": {"text": "Try curing a zombie with a witch."},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "obe:nether/golden_apple",
+  "criteria": {
+    "cured_zombie": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {}
+    }
+  },
+  "requirements": [["cured_zombie"]
+  ]
+}

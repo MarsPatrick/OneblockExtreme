@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:red_sand"},
+    "title": {"text": "Coloring","color": "white"},
+    "description": {"text": "Mix red sand."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:story/sand",
+  "criteria": {
+    "has_red_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:red_sand"]}]}
+    }
+  },
+  "requirements": [["has_red_sand"]]
+}

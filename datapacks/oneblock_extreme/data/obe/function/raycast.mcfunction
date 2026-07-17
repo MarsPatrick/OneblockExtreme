@@ -1,0 +1,3 @@
+execute if block ^ ^ ^ minecraft:amethyst_block align xyz positioned ~0.5 ~ ~0.5 unless entity @e[type=area_effect_cloud,tag=raycast,distance=..0.2] unless entity @e[tag=amethyst,distance=..0.8] run summon minecraft:armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["amethyst"]}
+execute if block ^ ^ ^ minecraft:amethyst_block align xyz run summon area_effect_cloud ~0.5 ~ ~0.5 {Duration:2,Tags:["raycast"]}
+execute if entity @s[distance=..5] unless block ^ ^ ^ minecraft:amethyst_block positioned ^ ^ ^0.1 run function obe:raycast

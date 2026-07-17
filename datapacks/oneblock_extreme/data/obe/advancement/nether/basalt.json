@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:basalt"},
+    "title": {"text": "Elephant toothpaste","color": "white"},
+    "description": {"text": "Result of soul soil experiment."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+  "parent": "obe:nether/soul_soil",
+  "criteria": {
+    "has_basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+          "items": [{"items": ["minecraft:basalt"]}]
+      }
+    }
+  },
+  "requirements": [["has_basalt"]]
+}
