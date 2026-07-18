@@ -20,9 +20,8 @@ execute if entity @e[type=minecraft:player,nbt={Dimension:"minecraft:overworld"}
 ##cat =>ocelot ##
 execute if entity @e[type=minecraft:player,nbt={Dimension:"minecraft:overworld"}] as @e[type=minecraft:cat,tag=!checked,sort=random] at @s run function obe:ocelot
 
-## detect thunders ##
-execute if entity @e[type=minecraft:lightning_bolt] unless entity @e[tag=portal_checker] as @e[type=minecraft:lightning_bolt] at @s run summon minecraft:armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Marker:0b,Invisible:0b,Tags:["portal_checker"]}
-execute if entity @e[tag=portal_checker,tag=!checked] as @e[tag=portal_checker] at @s run function obe:end_portal
+execute as @e[type=minecraft:lightning_bolt] at @s run summon minecraft:armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["portal_checker"]}
+execute as @e[tag=portal_checker,tag=!checked] at @s run function obe:end_portal
 
 ## raycasting ##
 execute as @p[nbt={SelectedItem:{id:"minecraft:diamond_hoe",tag:{Enchantments:[{id:"minecraft:silk_touch"}]}}}] at @s anchored eyes run function obe:raycast
