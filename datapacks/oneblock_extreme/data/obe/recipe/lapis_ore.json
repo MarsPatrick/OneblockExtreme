@@ -1,11 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "ore_blocks",
-  "pattern": [
-    "S#S",
-    "#S#",
-    "S#S"
-  ],
+  "pattern": ["S#S", "#S#", "S#S"],
   "key": {
     "#": "minecraft:lapis_lazuli",
     "S": "minecraft:stone"

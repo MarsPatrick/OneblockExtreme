@@ -31,10 +31,6 @@
       "translate": "advancements.adventure.shoot_arrow.title"
     }
   },
-  "requirements": [
-    [
-      "shot_arrow"
-    ]
-  ],
+  "requirements": [["shot_arrow"]],
   "sends_telemetry_event": true
 }

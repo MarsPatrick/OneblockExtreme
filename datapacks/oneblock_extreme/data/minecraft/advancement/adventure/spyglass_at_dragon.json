@@ -33,16 +33,10 @@
           }
         ],
         "item": {
-          "items": [
-            "minecraft:spyglass"
-          ]
+          "items": ["minecraft:spyglass"]
         }
       }
     }
   },
-  "requirements": [
-    [
-      "spyglass_at_dragon"
-    ]
-  ]
+  "requirements": [["spyglass_at_dragon"]]
 }

@@ -1,18 +1,18 @@
 {
   "display": {
-    "icon": {"id": "minecraft:shroomlight"},
-    "title": {"text": "Extra large growberry","color": "white"},
-    "description": {"text": "Grow up your warped fungus."},
+    "icon": { "id": "minecraft:shroomlight" },
+    "title": { "text": "Extra large growberry", "color": "white" },
+    "description": { "text": "Grow up your warped fungus." },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-    },
+  },
   "parent": "obe:nether/warped_nylium",
   "criteria": {
     "has_shroomlight": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:shroomlight"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:shroomlight"] }] }
     }
   },
   "requirements": [["has_shroomlight"]]

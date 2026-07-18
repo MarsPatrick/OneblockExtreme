@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#W#",
-    "###",
-    "EEE"
-  ],
+  "pattern": ["#W#", "###", "EEE"],
   "key": {
     "#": "minecraft:soul_sand",
     "E": "minecraft:end_stone",

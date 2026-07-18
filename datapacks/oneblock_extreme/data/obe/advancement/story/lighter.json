@@ -1,6 +1,6 @@
 {
   "display": {
-    "icon": {"id": "minecraft:campfire"},
+    "icon": { "id": "minecraft:campfire" },
     "title": "Light up!",
     "description": "set any light.",
     "frame": "task",
@@ -12,20 +12,22 @@
   "criteria": {
     "has_torch": {
       "trigger": "minecraft:placed_block",
-      "conditions": {"block": "minecraft:torch"}
+      "conditions": { "block": "minecraft:torch" }
     },
     "has_wall_torch": {
       "trigger": "minecraft:placed_block",
-      "conditions": {"block": "minecraft:wall_torch"}
+      "conditions": { "block": "minecraft:wall_torch" }
     },
     "has_lantern": {
       "trigger": "minecraft:placed_block",
-      "conditions": {"block": "minecraft:lantern"}
+      "conditions": { "block": "minecraft:lantern" }
     },
     "has_campfire": {
       "trigger": "minecraft:placed_block",
-      "conditions": {"block": "minecraft:campfire"}
+      "conditions": { "block": "minecraft:campfire" }
     }
   },
-  "requirements": [["has_torch","has_wall_torch","has_lantern","has_campfire"]]
+  "requirements": [
+    ["has_torch", "has_wall_torch", "has_lantern", "has_campfire"]
+  ]
 }

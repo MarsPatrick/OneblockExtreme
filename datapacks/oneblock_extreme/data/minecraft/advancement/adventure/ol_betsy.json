@@ -21,16 +21,10 @@
       "trigger": "minecraft:shot_crossbow",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:crossbow"
-          ]
+          "items": ["minecraft:crossbow"]
         }
       }
     }
   },
-  "requirements": [
-    [
-      "shot_crossbow"
-    ]
-  ]
+  "requirements": [["shot_crossbow"]]
 }

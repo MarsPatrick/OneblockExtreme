@@ -1,8 +1,8 @@
 {
   "display": {
-    "icon": {"id": "minecraft:heart_of_the_sea"},
-    "title": {"text": "Lolipop of legend","color": "white"},
-    "description": {"text": "Is this lolipop can be fished?"},
+    "icon": { "id": "minecraft:heart_of_the_sea" },
+    "title": { "text": "Lolipop of legend", "color": "white" },
+    "description": { "text": "Is this lolipop can be fished?" },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -12,7 +12,7 @@
   "criteria": {
     "heart_of_the_sea": {
       "trigger": "minecraft:fishing_rod_hooked",
-      "conditions": {"item": {"items": ["minecraft:heart_of_the_sea"]}}
+      "conditions": { "item": { "items": ["minecraft:heart_of_the_sea"] } }
     }
   },
   "requirements": [["heart_of_the_sea"]]

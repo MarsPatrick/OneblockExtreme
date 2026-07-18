@@ -1,19 +1,26 @@
 {
   "display": {
-    "icon": {"id": "minecraft:elder_guardian_spawn_egg"},
-    "title": {"text": "White Frog","color": "white"},
-    "description": {"text": "Send a frog into the Nether."},
+    "icon": {
+      "id": "minecraft:elder_guardian_spawn_egg"
+    },
+    "title": {
+      "text": "White Frog",
+      "color": "white"
+    },
+    "description": {
+      "text": "Send a frog into the Nether."
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-    },
+  },
   "parent": "minecraft:husbandry/tadpole_in_a_bucket",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible",
       "conditions": {}
-     }
+    }
   },
   "requirements": [["impossible"]]
 }

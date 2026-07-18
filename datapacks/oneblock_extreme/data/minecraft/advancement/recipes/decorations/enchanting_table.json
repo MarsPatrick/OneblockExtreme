@@ -3,22 +3,23 @@
   "criteria": {
     "has_book": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:book"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:book"] }] }
     },
     "has_enchanted_book": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:enchanted_book"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:enchanted_book"] }] }
     },
     "has_obsidian": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:obsidian"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:obsidian"] }] }
     },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
-      "conditions": {"recipe": "minecraft:enchanting_table"}
+      "conditions": { "recipe": "minecraft:enchanting_table" }
     }
   },
-  "requirements": [["has_book","has_enchanted_book","has_obsidian","has_the_recipe"]
+  "requirements": [
+    ["has_book", "has_enchanted_book", "has_obsidian", "has_the_recipe"]
   ],
-  "rewards": {"recipes": ["minecraft:enchanting_table"]}
+  "rewards": { "recipes": ["minecraft:enchanting_table"] }
 }

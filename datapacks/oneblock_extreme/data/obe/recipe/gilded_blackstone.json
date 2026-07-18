@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "S#S",
-    "#S#",
-    "S#S"
-  ],
+  "pattern": ["S#S", "#S#", "S#S"],
   "key": {
     "#": "minecraft:gold_nugget",
     "S": "minecraft:blackstone"

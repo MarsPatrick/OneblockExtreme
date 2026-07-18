@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " # ",
-    "#A#",
-    " # "
-  ],
+  "pattern": [" # ", "#A#", " # "],
   "key": {
     "#": "minecraft:sculk_vein",
     "A": "minecraft:amethyst_shard"

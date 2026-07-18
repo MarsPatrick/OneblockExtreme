@@ -3,13 +3,13 @@
   "criteria": {
     "has_bucket": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:bucket"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:bucket"] }] }
     },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
-      "conditions": {"recipe": "obe:powder_snow_bucket"}
+      "conditions": { "recipe": "obe:powder_snow_bucket" }
     }
   },
-  "requirements": [["has_bucket","has_the_recipe"]],
-  "rewards": {"recipes": ["obe:powder_snow_bucket"]}
+  "requirements": [["has_bucket", "has_the_recipe"]],
+  "rewards": { "recipes": ["obe:powder_snow_bucket"] }
 }

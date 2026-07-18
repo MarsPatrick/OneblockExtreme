@@ -1,9 +1,13 @@
 {
   "parent": "minecraft:adventure/honey_block_slide",
   "display": {
-    "icon": {"id": "minecraft:water_bucket"},
-      "title": {"translate": "advancements.adventure.fall_from_world_height.title"},
-    "description": {"translate": "advancements.adventure.fall_from_world_height.description"},
+    "icon": { "id": "minecraft:water_bucket" },
+    "title": {
+      "translate": "advancements.adventure.fall_from_world_height.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.fall_from_world_height.description"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -12,7 +16,9 @@
   "criteria": {
     "fall_from_world_height": {
       "trigger": "minecraft:fall_from_height",
-      "conditions": {"player": [{
+      "conditions": {
+        "player": [
+          {
             "condition": "minecraft:entity_properties",
             "predicate": {
               "location": {
@@ -41,9 +47,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "fall_from_world_height"
-    ]
-  ]
+  "requirements": [["fall_from_world_height"]]
 }

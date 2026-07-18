@@ -3,13 +3,13 @@
   "criteria": {
     "has_arrow": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:arrow"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:arrow"] }] }
     },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
-      "conditions": {"recipe": "obe:stick"}
+      "conditions": { "recipe": "obe:stick" }
     }
   },
-  "requirements": [["has_arrow","has_the_recipe"]],
-  "rewards": {"recipes": ["obe:stick"]}
+  "requirements": [["has_arrow", "has_the_recipe"]],
+  "rewards": { "recipes": ["obe:stick"] }
 }

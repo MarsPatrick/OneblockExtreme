@@ -4,9 +4,7 @@
     "tadpole_bucket": {
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:tadpole_bucket"
-          ]
+          "items": ["minecraft:tadpole_bucket"]
         }
       },
       "trigger": "minecraft:filled_bucket"
@@ -27,9 +25,5 @@
       "translate": "advancements.husbandry.tadpole_in_a_bucket.title"
     }
   },
-  "requirements": [
-    [
-      "tadpole_bucket"
-    ]
-  ]
+  "requirements": [["tadpole_bucket"]]
 }

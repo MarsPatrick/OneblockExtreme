@@ -3,13 +3,13 @@
   "criteria": {
     "has_sand": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:sand"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:sand"] }] }
     },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
-      "conditions": {"recipe": "minecraft:light_gray_concrete_powder"}
+      "conditions": { "recipe": "minecraft:light_gray_concrete_powder" }
     }
   },
-  "requirements": [["has_sand","has_the_recipe"]],
-  "rewards": {"recipes": ["minecraft:light_gray_concrete_powder"]}
+  "requirements": [["has_sand", "has_the_recipe"]],
+  "rewards": { "recipes": ["minecraft:light_gray_concrete_powder"] }
 }

@@ -3,13 +3,13 @@
   "criteria": {
     "has_lapis_lazuli": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:lapis_lazuli"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:lapis_lazuli"] }] }
     },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
-      "conditions": {"recipe": "obe:lapis_ore"}
+      "conditions": { "recipe": "obe:lapis_ore" }
     }
   },
-  "requirements": [["has_lapis_lazuli","has_the_recipe"]],
-  "rewards": {"recipes": ["obe:lapis_ore"]}
+  "requirements": [["has_lapis_lazuli", "has_the_recipe"]],
+  "rewards": { "recipes": ["obe:lapis_ore"] }
 }

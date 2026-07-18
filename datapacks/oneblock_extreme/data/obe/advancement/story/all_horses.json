@@ -17,75 +17,42 @@
   },
   "parent": "obe:story/chest",
   "criteria": {
-    "minecraft:horse": {
+    "horse": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
-        "child": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:horse"
-            }
+        "child": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:horse"
           }
-        ]
+        }
       }
     },
-    "minecraft:donkey": {
+    "donkey": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
-        "child": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:donkey"
-            }
+        "child": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:donkey"
           }
-        ]
+        }
       }
     },
-    "minecraft:mule": {
+    "llama": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
-        "child": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:mule"
-            }
+        "child": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:llama"
           }
-        ]
-      }
-    },
-    "minecraft:llama": {
-      "trigger": "minecraft:bred_animals",
-      "conditions": {
-        "child": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:llama"
-            }
-          }
-        ]
+        }
       }
     }
   },
-  "requirements": [
-    [
-      "minecraft:horse"
-    ],
-    [
-      "minecraft:donkey"
-    ],
-    [
-      "minecraft:mule"
-    ],
-    [
-      "minecraft:llama"
-    ]
-  ]
+  "requirements": [["horse"], ["donkey"], ["llama"]]
 }

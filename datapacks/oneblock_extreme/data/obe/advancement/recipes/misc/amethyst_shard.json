@@ -3,13 +3,13 @@
   "criteria": {
     "has_glowstone_dust": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:glowstone_dust"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:glowstone_dust"] }] }
     },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
-      "conditions": {"recipe": "obe:amethyst_shard"}
+      "conditions": { "recipe": "obe:amethyst_shard" }
     }
   },
-  "requirements": [["has_glowstone_dust","has_the_recipe"]],
-  "rewards": {"recipes": ["obe:amethyst_shard"]}
+  "requirements": [["has_glowstone_dust", "has_the_recipe"]],
+  "rewards": { "recipes": ["obe:amethyst_shard"] }
 }

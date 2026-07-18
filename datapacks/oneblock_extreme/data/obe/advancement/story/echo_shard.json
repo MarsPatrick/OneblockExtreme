@@ -1,18 +1,18 @@
 {
   "display": {
-    "icon": {"id": "minecraft:echo_shard"},
-    "title": {"text": "Resonance","color": "white"},
-    "description": {"text": "craft echo shard."},
+    "icon": { "id": "minecraft:echo_shard" },
+    "title": { "text": "Resonance", "color": "white" },
+    "description": { "text": "craft echo shard." },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-    },
+  },
   "parent": "minecraft:adventure/kill_mob_near_sculk_catalyst",
   "criteria": {
     "has_echo_shard": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:echo_shard"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:echo_shard"] }] }
     }
   },
   "requirements": [["has_echo_shard"]]

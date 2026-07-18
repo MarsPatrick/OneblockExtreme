@@ -3,17 +3,19 @@
   "criteria": {
     "has_red_mushroom": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:red_mushroom"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:red_mushroom"] }] }
     },
     "has_brown_mushroom": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:brown_mushroom"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:brown_mushroom"] }] }
     },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
-      "conditions": {"recipe": "obe:mycelium"}
+      "conditions": { "recipe": "obe:mycelium" }
     }
   },
-  "requirements": [["has_red_mushroom","has_brown_mushroom","has_the_recipe"]],
-  "rewards": {"recipes": ["obe:mycelium"]}
+  "requirements": [
+    ["has_red_mushroom", "has_brown_mushroom", "has_the_recipe"]
+  ],
+  "rewards": { "recipes": ["obe:mycelium"] }
 }

@@ -22,17 +22,11 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:dirt"
-            ]
+            "items": ["minecraft:dirt"]
           }
         ]
       }
     }
   },
-  "requirements": [
-    [
-      "has_dirt"
-    ]
-  ]
+  "requirements": [["has_dirt"]]
 }

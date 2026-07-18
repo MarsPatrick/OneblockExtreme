@@ -31,10 +31,6 @@
       "translate": "advancements.adventure.throw_trident.title"
     }
   },
-  "requirements": [
-    [
-      "shot_trident"
-    ]
-  ],
+  "requirements": [["shot_trident"]],
   "sends_telemetry_event": true
 }

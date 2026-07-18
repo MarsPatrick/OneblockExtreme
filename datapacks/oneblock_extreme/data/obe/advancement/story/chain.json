@@ -22,17 +22,11 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:chain"
-            ]
+            "items": ["minecraft:iron_chain"]
           }
         ]
       }
     }
   },
-  "requirements": [
-    [
-      "has_chain"
-    ]
-  ]
+  "requirements": [["has_chain"]]
 }

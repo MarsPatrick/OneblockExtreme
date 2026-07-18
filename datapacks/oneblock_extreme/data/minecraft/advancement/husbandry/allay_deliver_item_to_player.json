@@ -28,10 +28,6 @@
       "translate": "advancements.husbandry.allay_deliver_item_to_player.title"
     }
   },
-  "requirements": [
-    [
-      "allay_deliver_item_to_player"
-    ]
-  ],
+  "requirements": [["allay_deliver_item_to_player"]],
   "sends_telemetry_event": true
 }

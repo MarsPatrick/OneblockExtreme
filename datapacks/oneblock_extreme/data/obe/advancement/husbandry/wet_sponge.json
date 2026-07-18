@@ -1,8 +1,8 @@
 {
   "display": {
-    "icon": {"id": "minecraft:sponge"},
-    "title": {"text": "Too much water?","color": "white"},
-    "description": {"text": "Get a sponge by fishing."},
+    "icon": { "id": "minecraft:sponge" },
+    "title": { "text": "Too much water?", "color": "white" },
+    "description": { "text": "Get a sponge by fishing." },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -12,7 +12,7 @@
   "criteria": {
     "wet_sponge": {
       "trigger": "minecraft:fishing_rod_hooked",
-      "conditions": {"item": {"items": ["minecraft:wet_sponge"]}}
+      "conditions": { "item": { "items": ["minecraft:wet_sponge"] } }
     }
   },
   "requirements": [["wet_sponge"]]

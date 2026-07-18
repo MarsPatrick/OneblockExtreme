@@ -37,10 +37,6 @@
       "translate": "advancements.adventure.play_jukebox_in_meadows.title"
     }
   },
-  "requirements": [
-    [
-      "play_jukebox_in_meadows"
-    ]
-  ],
+  "requirements": [["play_jukebox_in_meadows"]],
   "sends_telemetry_event": true
 }

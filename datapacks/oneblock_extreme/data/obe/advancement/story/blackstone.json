@@ -1,19 +1,19 @@
 {
   "display": {
-    "icon": {"id": "minecraft:blackstone"},
-    "title": {"text": "Fire treatment","color": "white"},
-    "description": {"text": "Scorch the cobblestone"},
+    "icon": { "id": "minecraft:blackstone" },
+    "title": { "text": "Fire treatment", "color": "white" },
+    "description": { "text": "Scorch the cobblestone" },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-    },
+  },
   "parent": "obe:story/smoker",
   "criteria": {
     "has_blackstone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-          "items": [{"items": ["minecraft:blackstone"]}]
+        "items": [{ "items": ["minecraft:blackstone"] }]
       }
     }
   },

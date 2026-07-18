@@ -1,11 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "deepslate_ores",
-  "pattern": [
-    "S#S",
-    "#S#",
-    "S#S"
-  ],
+  "pattern": ["S#S", "#S#", "S#S"],
   "key": {
     "#": "minecraft:coal",
     "S": "minecraft:deepslate"

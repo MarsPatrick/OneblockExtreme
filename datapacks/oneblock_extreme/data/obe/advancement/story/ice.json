@@ -1,18 +1,18 @@
 {
   "display": {
-    "icon": {"id": "minecraft:ice"},
-    "title": {"text": "What is it make of?","color": "white"},
-    "description": {"text": "Craft an ice"},
+    "icon": { "id": "minecraft:ice" },
+    "title": { "text": "What is it make of?", "color": "white" },
+    "description": { "text": "Craft an ice" },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-    },
+  },
   "parent": "obe:story/snow_block",
   "criteria": {
     "has_ice": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:ice"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:ice"] }] }
     }
   },
   "requirements": [["has_ice"]]

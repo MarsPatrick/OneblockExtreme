@@ -1,18 +1,31 @@
 {
   "display": {
-    "icon": {"id": "minecraft:snow_block"},
-    "title": {"text": "Storage saver","color": "white"},
-    "description": {"text": "What did you get from stray?"},
+    "icon": {
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "text": "Storage saver",
+      "color": "white"
+    },
+    "description": {
+      "text": "What did you get from stray?"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-    },
+  },
   "parent": "minecraft:adventure/kill_a_mob",
   "criteria": {
     "has_snow_block": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:snow_block"]}]}
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:snow_block"]
+          }
+        ]
+      }
     }
   },
   "requirements": [["has_snow_block"]]

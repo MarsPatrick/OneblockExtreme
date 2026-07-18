@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " # ",
-    "#N#",
-    " # "
-  ],
+  "pattern": [" # ", "#N#", " # "],
   "key": {
     "#": "minecraft:glow_ink_sac",
     "N": "minecraft:nether_wart_block"

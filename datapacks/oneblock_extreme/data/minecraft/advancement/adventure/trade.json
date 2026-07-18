@@ -1,8 +1,9 @@
 {
   "parent": "minecraft:husbandry/root",
-  "display": {"icon": {"id": "minecraft:emerald"},
-    "title": {"translate": "advancements.adventure.trade.title"},
-    "description": {"translate": "advancements.adventure.trade.description"},
+  "display": {
+    "icon": { "id": "minecraft:emerald" },
+    "title": { "translate": "advancements.adventure.trade.title" },
+    "description": { "translate": "advancements.adventure.trade.description" },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

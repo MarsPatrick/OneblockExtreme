@@ -1,16 +1,32 @@
 {
-  "display": {
-    "icon": {"id": "minecraft:emerald"},
-    "title": {"text": "Wandering Trader","color": "white"},
-    "description": {"text": "This guy will gives you more..."},
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
   "parent": "minecraft:story/root",
   "criteria": {
-    "traded": {"trigger": "minecraft:villager_trade","conditions": {"villager": {"type": "minecraft:wandering_trader"}}}
+    "traded": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:entity_type": "minecraft:wandering_trader"
+        }
+      }
+    }
   },
-  "requirements": [["traded"]]
+  "display": {
+    "description": {
+      "text": "This guy will gives you more..."
+    },
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "text": "Wandering Trader",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+
+  "requirements": [["traded"]],
+  "sends_telemetry_event": true
 }

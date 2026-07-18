@@ -3,13 +3,13 @@
   "criteria": {
     "has_sand": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:sand"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:sand"] }] }
     },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
-      "conditions": {"recipe": "minecraft:pink_concrete_powder"}
+      "conditions": { "recipe": "minecraft:pink_concrete_powder" }
     }
   },
-  "requirements": [["has_sand","has_the_recipe"]],
-  "rewards": {"recipes": ["minecraft:pink_concrete_powder"]}
+  "requirements": [["has_sand", "has_the_recipe"]],
+  "rewards": { "recipes": ["minecraft:pink_concrete_powder"] }
 }

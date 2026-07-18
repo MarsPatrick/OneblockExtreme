@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#",
-    "W"
-  ],
+  "pattern": ["#", "W"],
   "key": {
     "#": "minecraft:magma_block",
     "W": "minecraft:water_bucket"

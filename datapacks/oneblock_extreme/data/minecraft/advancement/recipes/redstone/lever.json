@@ -6,9 +6,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:stick"
-            ]
+            "items": ["minecraft:stick"]
           }
         ]
       }
@@ -20,15 +18,8 @@
       }
     }
   },
-  "requirements": [
-    [
-      "has_stick",
-      "has_the_recipe"
-    ]
-  ],
+  "requirements": [["has_stick", "has_the_recipe"]],
   "rewards": {
-    "recipes": [
-      "minecraft:lever"
-    ]
+    "recipes": ["minecraft:lever"]
   }
 }

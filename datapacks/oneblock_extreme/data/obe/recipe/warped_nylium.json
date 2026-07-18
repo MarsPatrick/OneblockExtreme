@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##",
-    "NN"
-  ],
+  "pattern": ["##", "NN"],
   "key": {
     "#": "minecraft:warped_wart_block",
     "N": "minecraft:netherrack"

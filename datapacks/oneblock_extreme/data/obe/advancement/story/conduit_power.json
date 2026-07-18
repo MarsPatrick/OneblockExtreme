@@ -1,18 +1,19 @@
 {
   "display": {
-    "icon": {"id": "minecraft:conduit"},
-    "title": {"text": "Ocean conqueror","color": "white"},
-    "description": {"text": "Hear the heartbeat from your sea."},
+    "icon": { "id": "minecraft:conduit" },
+    "title": { "text": "Ocean conqueror", "color": "white" },
+    "description": { "text": "Hear the heartbeat from your sea." },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-    },
+  },
   "parent": "obe:story/prismarine",
   "criteria": {
     "conduit_power": {
       "trigger": "minecraft:effects_changed",
-      "conditions": {"effects": {"minecraft:conduit_power": {}}}}
+      "conditions": { "effects": { "minecraft:conduit_power": {} } }
+    }
   },
   "requirements": [["conduit_power"]]
 }

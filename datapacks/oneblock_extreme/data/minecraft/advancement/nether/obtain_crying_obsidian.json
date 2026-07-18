@@ -1,8 +1,13 @@
 {
   "parent": "obe:nether/amethyst_shard",
-  "display": {"icon": {"id": "minecraft:crying_obsidian"},
-    "title": {"translate": "advancements.nether.obtain_crying_obsidian.title"},
-    "description": {"translate": "advancements.nether.obtain_crying_obsidian.description"},
+  "display": {
+    "icon": { "id": "minecraft:crying_obsidian" },
+    "title": {
+      "translate": "advancements.nether.obtain_crying_obsidian.title"
+    },
+    "description": {
+      "translate": "advancements.nether.obtain_crying_obsidian.description"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -11,7 +16,8 @@
   "criteria": {
     "crying_obsidian": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:crying_obsidian"]}]}}
+      "conditions": { "items": [{ "items": ["minecraft:crying_obsidian"] }] }
+    }
   },
   "requirements": [["crying_obsidian"]]
 }

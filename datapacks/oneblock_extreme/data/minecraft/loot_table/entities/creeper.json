@@ -48,9 +48,7 @@
           "predicate": {
             "source_entity": {
               "minecraft:entity_tags": {
-                "all_of": [
-                  "skeletons"
-                ]
+                "all_of": ["skeletons"]
               }
             }
           }

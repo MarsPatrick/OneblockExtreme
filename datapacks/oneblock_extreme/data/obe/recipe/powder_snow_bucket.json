@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    " B "
-  ],
+  "pattern": ["###", "###", " B "],
   "key": {
     "#": "minecraft:snowball",
     "B": "minecraft:bucket"

@@ -1,33 +1,58 @@
 {
   "display": {
-    "icon": {"id": "minecraft:wheat"},
-    "title": {"text": "How can this food farmed?","color": "white"},
-    "description": {"text": "Collect all the seed which can be farmed."},
+    "icon": { "id": "minecraft:wheat" },
+    "title": { "text": "How can this food farmed?", "color": "white" },
+    "description": { "text": "Collect all the seed which can be farmed." },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-    },
+  },
   "parent": "minecraft:husbandry/plant_seed",
   "criteria": {
     "has_wheat_seeds": {
-      "trigger": "minecraft:inventory_changed","conditions": {
-        "items": [{"items": ["minecraft:wheat_seeds"]}]}},
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:wheat_seeds"] }]
+      }
+    },
     "has_beetroot_seeds": {
-      "trigger": "minecraft:inventory_changed","conditions": {
-        "items": [{"items": ["minecraft:beetroot_seeds"]}]}},
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:beetroot_seeds"] }]
+      }
+    },
     "has_pumpkin_seeds": {
-      "trigger": "minecraft:inventory_changed","conditions": {
-        "items": [{"items": ["minecraft:pumpkin_seeds"]}]}},
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:pumpkin_seeds"] }]
+      }
+    },
     "has_melon_seeds": {
-      "trigger": "minecraft:inventory_changed","conditions": {
-        "items": [{"items": ["minecraft:melon_seeds"]}]}},
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:melon_seeds"] }]
+      }
+    },
     "has_potato": {
-      "trigger": "minecraft:inventory_changed","conditions": {
-        "items": [{"items": ["minecraft:potato"]}]}},
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:potato"] }]
+      }
+    },
     "has_carrot": {
-      "trigger": "minecraft:inventory_changed","conditions": {
-        "items": [{"items": ["minecraft:carrot"]}]}}
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:carrot"] }]
+      }
+    }
   },
-  "requirements": [["has_wheat_seeds"],["has_beetroot_seeds"],["has_pumpkin_seeds"],["has_melon_seeds"],["has_potato"],["has_carrot"]]
+  "requirements": [
+    ["has_wheat_seeds"],
+    ["has_beetroot_seeds"],
+    ["has_pumpkin_seeds"],
+    ["has_melon_seeds"],
+    ["has_potato"],
+    ["has_carrot"]
+  ]
 }

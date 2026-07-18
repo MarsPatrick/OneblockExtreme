@@ -1,18 +1,18 @@
 {
   "display": {
-    "icon": {"id": "minecraft:powder_snow_bucket"},
-    "title": {"text": "White Trap","color": "white"},
-    "description": {"text": "Craft a cold bucket."},
+    "icon": { "id": "minecraft:powder_snow_bucket" },
+    "title": { "text": "White Trap", "color": "white" },
+    "description": { "text": "Craft a cold bucket." },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-    },
+  },
   "parent": "minecraft:story/smelt_iron",
   "criteria": {
     "has_powder_snow_bucket": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:powder_snow_bucket"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:powder_snow_bucket"] }] }
     }
   },
   "requirements": [["has_powder_snow_bucket"]]

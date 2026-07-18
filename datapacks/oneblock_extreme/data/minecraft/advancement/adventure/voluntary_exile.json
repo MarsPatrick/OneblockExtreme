@@ -106,9 +106,7 @@
         },
         "minecraft:rarity": "uncommon",
         "minecraft:tooltip_display": {
-          "hidden_components": [
-            "minecraft:banner_patterns"
-          ]
+          "hidden_components": ["minecraft:banner_patterns"]
         }
       },
       "id": "minecraft:white_banner"
@@ -117,10 +115,6 @@
       "translate": "advancements.adventure.voluntary_exile.title"
     }
   },
-  "requirements": [
-    [
-      "voluntary_exile"
-    ]
-  ],
+  "requirements": [["voluntary_exile"]],
   "sends_telemetry_event": true
 }

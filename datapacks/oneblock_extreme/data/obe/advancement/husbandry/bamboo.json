@@ -1,8 +1,8 @@
 {
   "display": {
-    "icon": {"id": "minecraft:bamboo"},
-    "title": {"text": "Fishing in jungle","color": "white"},
-    "description": {"text": "Get a bamboo by fishing."},
+    "icon": { "id": "minecraft:bamboo" },
+    "title": { "text": "Fishing in jungle", "color": "white" },
+    "description": { "text": "Get a bamboo by fishing." },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -12,7 +12,7 @@
   "criteria": {
     "bamboo": {
       "trigger": "minecraft:fishing_rod_hooked",
-      "conditions": {"item": {"items": ["minecraft:bamboo"]}}
+      "conditions": { "item": { "items": ["minecraft:bamboo"] } }
     }
   },
   "requirements": [["bamboo"]]

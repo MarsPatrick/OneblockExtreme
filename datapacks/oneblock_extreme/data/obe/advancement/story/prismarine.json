@@ -1,31 +1,38 @@
 {
   "display": {
-    "icon": {"id": "minecraft:prismarine_bricks"},
-    "title": {"text": "Ocean architecture","color": "white"},
-    "description": {"text": "Collect material from drowned."},
+    "icon": { "id": "minecraft:prismarine_bricks" },
+    "title": { "text": "Ocean architecture", "color": "white" },
+    "description": { "text": "Collect material from drowned." },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-    },
+  },
   "parent": "obe:story/copper_ingot",
   "criteria": {
     "has_prismarine": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:prismarine"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:prismarine"] }] }
     },
     "has_sea_lantern": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:sea_lantern"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:sea_lantern"] }] }
     },
     "has_dark_prismarine": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:dark_prismarine"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:dark_prismarine"] }] }
     },
     "has_prismarine_bricks": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:prismarine_bricks"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:prismarine_bricks"] }] }
     }
   },
-  "requirements": [["has_prismarine","has_sea_lantern","has_dark_prismarine","has_prismarine_bricks"]]
+  "requirements": [
+    [
+      "has_prismarine",
+      "has_sea_lantern",
+      "has_dark_prismarine",
+      "has_prismarine_bricks"
+    ]
+  ]
 }

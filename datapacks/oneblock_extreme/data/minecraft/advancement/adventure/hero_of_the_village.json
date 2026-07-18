@@ -64,9 +64,5 @@
       "conditions": {}
     }
   },
-  "requirements": [
-    [
-      "hero_of_the_village"
-    ]
-  ]
+  "requirements": [["hero_of_the_village"]]
 }

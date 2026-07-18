@@ -1,18 +1,18 @@
 {
   "display": {
-    "icon": {"id": "minecraft:nether_wart"},
-    "title": {"text": "Potion starter","color": "white"},
-    "description": {"text": "It's time to start your potion busisness."},
+    "icon": { "id": "minecraft:nether_wart" },
+    "title": { "text": "Potion starter", "color": "white" },
+    "description": { "text": "It's time to start your potion busisness." },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-    },
+  },
   "parent": "obe:nether/trader",
   "criteria": {
     "has_nether_wart": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:nether_wart"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:nether_wart"] }] }
     }
   },
   "requirements": [["has_nether_wart"]]

@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "RBR",
-    "BRB",
-    " # "
-  ],
+  "pattern": ["RBR", "BRB", " # "],
   "key": {
     "#": "minecraft:dirt",
     "R": "minecraft:red_mushroom",

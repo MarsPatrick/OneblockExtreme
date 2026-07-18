@@ -3,13 +3,13 @@
   "criteria": {
     "has_raw_iron": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:raw_iron"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:raw_iron"] }] }
     },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
-      "conditions": {"recipe": "obe:iron_ore"}
+      "conditions": { "recipe": "obe:iron_ore" }
     }
   },
-  "requirements": [["has_raw_iron","has_the_recipe"]],
-  "rewards": {"recipes": ["obe:iron_ore"]}
+  "requirements": [["has_raw_iron", "has_the_recipe"]],
+  "rewards": { "recipes": ["obe:iron_ore"] }
 }

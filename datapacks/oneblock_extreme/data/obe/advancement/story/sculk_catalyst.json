@@ -1,18 +1,18 @@
 {
   "display": {
-    "icon": {"id": "minecraft:sculk_catalyst"},
-    "title": {"text": "Dangerous reactor","color": "white"},
-    "description": {"text": "craft sculk catalyst."},
+    "icon": { "id": "minecraft:sculk_catalyst" },
+    "title": { "text": "Dangerous reactor", "color": "white" },
+    "description": { "text": "craft sculk catalyst." },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-    },
+  },
   "parent": "obe:story/end_stone",
   "criteria": {
     "has_sculk_catalyst": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:sculk_catalyst"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:sculk_catalyst"] }] }
     }
   },
   "requirements": [["has_sculk_catalyst"]]

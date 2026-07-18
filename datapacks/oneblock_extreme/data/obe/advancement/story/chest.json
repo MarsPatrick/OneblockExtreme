@@ -1,8 +1,15 @@
 {
   "display": {
-    "icon": {"id": "minecraft:chest"},
-    "title": {"text": "Moblie truck","color": "white"},
-    "description": {"text": "How can a horse helps you?"},
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "text": "Moblie truck",
+      "color": "white"
+    },
+    "description": {
+      "text": "How can a horse helps you?"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -13,21 +20,53 @@
     "put_chest_to_donkey": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "item": {"items": ["minecraft:chest"]},
-        "entity": {"type": "minecraft:donkey","nbt":"{Tame:1b}"}}
+        "item": {
+          "items": ["minecraft:chest"]
+        },
+        "entity": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:donkey",
+            "nbt": "{Tame:1b}"
+          }
+        }
+      }
     },
     "put_chest_to_llama": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "item": {"items": ["minecraft:chest"]},
-        "entity": {"type": "minecraft:llama","nbt":"{Tame:1b}"}}
+        "item": {
+          "items": ["minecraft:chest"]
+        },
+        "entity": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:llama",
+            "nbt": "{Tame:1b}"
+          }
+        }
+      }
     },
     "put_chest_to_mule": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "item": {"items": ["minecraft:chest"]},
-        "entity": {"type": "minecraft:mule","nbt":"{Tame:1b}"}}
+        "item": {
+          "items": ["minecraft:chest"]
+        },
+        "entity": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:mule",
+            "nbt": "{Tame:1b}"
+          }
+        }
+      }
     }
   },
-  "requirements": [["put_chest_to_donkey","put_chest_to_llama","put_chest_to_mule"]]
+  "requirements": [
+    ["put_chest_to_donkey", "put_chest_to_llama", "put_chest_to_mule"]
+  ]
 }

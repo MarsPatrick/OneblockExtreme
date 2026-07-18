@@ -1,8 +1,8 @@
 {
   "display": {
-    "icon": {"id": "minecraft:enchanted_golden_apple"},
-    "title": {"translate": "advancements.story.cure_zombie_villager.title"},
-    "description": {"text": "Try curing a zombie with a witch."},
+    "icon": { "id": "minecraft:enchanted_golden_apple" },
+    "title": { "translate": "advancements.story.cure_zombie_villager.title" },
+    "description": { "text": "Try curing a zombie with a witch." },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -15,6 +15,5 @@
       "conditions": {}
     }
   },
-  "requirements": [["cured_zombie"]
-  ]
+  "requirements": [["cured_zombie"]]
 }

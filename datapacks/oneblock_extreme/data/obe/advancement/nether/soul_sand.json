@@ -1,18 +1,18 @@
 {
   "display": {
-    "icon": {"id": "minecraft:soul_sand"},
-    "title": {"text": "Block with soul","color": "white"},
-    "description": {"text": "It's feel cold."},
+    "icon": { "id": "minecraft:soul_sand" },
+    "title": { "text": "Block with soul", "color": "white" },
+    "description": { "text": "It's feel cold." },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-    },
+  },
   "parent": "minecraft:nether/root",
   "criteria": {
     "has_soul_sand": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:soul_sand"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:soul_sand"] }] }
     }
   },
   "requirements": [["has_soul_sand"]]

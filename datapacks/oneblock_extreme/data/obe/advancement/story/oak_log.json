@@ -1,20 +1,20 @@
 {
   "display": {
-    "icon": {"id": "minecraft:oak_log"},
-    "title": {"text": "Tree planting","color": "white"},
-    "description": {"text": "Get log from a tree"},
+    "icon": { "id": "minecraft:oak_log" },
+    "title": { "text": "Tree planting", "color": "white" },
+    "description": { "text": "Get log from a tree" },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-    },
+  },
   "parent": "minecraft:story/root",
   "criteria": {
     "has_oak_log": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:oak_log"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:oak_log"] }] }
     }
   },
   "requirements": [["has_oak_log"]],
-  "rewards": {"recipes": ["minecraft:fishing_rod"]}
+  "rewards": { "recipes": ["minecraft:fishing_rod"] }
 }

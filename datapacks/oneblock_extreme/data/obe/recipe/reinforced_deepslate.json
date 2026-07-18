@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "E#E",
-    "#O#",
-    "E#E"
-  ],
+  "pattern": ["E#E", "#O#", "E#E"],
   "key": {
     "#": "minecraft:deepslate_tiles",
     "E": "minecraft:end_stone_brick_stairs",

@@ -18,15 +18,8 @@
       }
     }
   },
-  "requirements": [
-    [
-      "has_gravel",
-      "has_the_recipe"
-    ]
-  ],
+  "requirements": [["has_gravel", "has_the_recipe"]],
   "rewards": {
-    "recipes": [
-      "obe:chainmail_leggings"
-    ]
+    "recipes": ["obe:chainmail_leggings"]
   }
 }

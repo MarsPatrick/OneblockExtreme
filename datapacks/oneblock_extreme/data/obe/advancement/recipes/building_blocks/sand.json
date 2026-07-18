@@ -3,13 +3,13 @@
   "criteria": {
     "has_blast_furnace": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:blast_furnace"]}]}
+      "conditions": { "items": [{ "items": ["minecraft:blast_furnace"] }] }
     },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
-      "conditions": {"recipe": "obe:sand"}
+      "conditions": { "recipe": "obe:sand" }
     }
   },
-  "requirements": [["has_blast_furnace","has_the_recipe"]],
-  "rewards": {"recipes": ["obe:sand"]}
+  "requirements": [["has_blast_furnace", "has_the_recipe"]],
+  "rewards": { "recipes": ["obe:sand"] }
 }
