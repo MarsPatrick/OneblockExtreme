@@ -43,10 +43,16 @@
       ],
       "conditions": [
         {
-          "condition": "minecraft:entity_properties",
-          "entity": "attacker",
+          "condition": "minecraft:damage_source_properties",
+          "entity": "this",
           "predicate": {
-            "type": "#minecraft:skeletons"
+            "source_entity": {
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "skeletons"
+                ]
+              }
+            }
           }
         }
       ]

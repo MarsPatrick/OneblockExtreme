@@ -1,62 +1,46 @@
 {
   "parent": "minecraft:story/mine_diamond",
+  "criteria": {
+    "play_jukebox_in_meadows": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biomes": "minecraft:meadow",
+              "block": {
+                "blocks": "minecraft:jukebox"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:jukebox_playable": {}
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
   "display": {
+    "description": {
+      "translate": "advancements.adventure.play_jukebox_in_meadows.description"
+    },
     "icon": {
       "id": "minecraft:jukebox"
     },
     "title": {
       "translate": "advancements.adventure.play_jukebox_in_meadows.title"
-    },
-    "description": {
-      "translate": "advancements.adventure.play_jukebox_in_meadows.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "play_jukebox_in_meadows": {
-      "trigger": "minecraft:item_used_on_block",
-      "conditions": {
-        "location": {
-          "block": [
-            {
-              "blocks": [
-                "minecraft:jukebox"
-              ]
-            }
-          ]
-        },
-        "item": {
-          "items": [
-            "minecraft:music_disc_13",
-            "minecraft:music_disc_cat",
-            "minecraft:music_disc_blocks",
-            "minecraft:music_disc_chirp",
-            "minecraft:music_disc_far",
-            "minecraft:music_disc_mall",
-            "minecraft:music_disc_mellohi",
-            "minecraft:music_disc_stal",
-            "minecraft:music_disc_strad",
-            "minecraft:music_disc_ward",
-            "minecraft:music_disc_11",
-            "minecraft:music_disc_wait",
-            "minecraft:music_disc_pigstep",
-            "minecraft:music_disc_otherside",
-            "minecraft:music_disc_5",
-            "minecraft:music_disc_relic",
-            "minecraft:music_disc_creator",
-            "minecraft:music_disc_creator_music_box",
-            "minecraft:music_disc_precipice"
-          ]
-        }
-      }
     }
   },
   "requirements": [
     [
       "play_jukebox_in_meadows"
     ]
-  ]
+  ],
+  "sends_telemetry_event": true
 }
